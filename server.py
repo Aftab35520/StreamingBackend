@@ -48,4 +48,4 @@ def SearchMovieQuiry(name):
     return jsonify(searchMovie.SimilarMovie(name))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
